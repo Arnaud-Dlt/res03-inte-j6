@@ -1,0 +1,42 @@
+@import "vars";
+
+body 
+{
+    height:100vh;
+    width:100vw;
+    
+    section
+    {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height:50vh;
+        
+        #ex1
+        {
+            background:linear-gradient(to top,$darkBlue,$blue,$green);
+        }
+        #ex2
+        {
+            background:radial-gradient($darkBlue,$blue,$green);
+        }
+        #ex3 
+        {
+            background:radial-gradient($green,$blue,$darkBlue);
+        }
+    }
+    section 
+    {
+        #ex4
+        {
+            background:radial-gradient($pink,$yellow,$green,$blue,$darkBlue);
+        }
+        #ex5
+        {
+            background:radial-gradient($pink,$yellow,$green,$blue,$darkBlue,$blue,$green,$yellow,$pink);
+        }
+        #ex6 
+        {
+            background:linear-gradient(to left bottom,$darkBlue,$blue,$green,$yellow,$pink);
+        }
+    }
+}

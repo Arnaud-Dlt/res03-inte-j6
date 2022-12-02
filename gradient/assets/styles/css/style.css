@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+body section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 50vh;
+}
+body section #ex1 {
+  background: linear-gradient(to top, #073b4c, #118ab2, #06d6a0);
+}
+body section #ex2 {
+  background: radial-gradient(#073b4c, #118ab2, #06d6a0);
+}
+body section #ex3 {
+  background: radial-gradient(#06d6a0, #118ab2, #073b4c);
+}
+body section #ex4 {
+  background: radial-gradient(#ef476f, #ffd166, #06d6a0, #118ab2, #073b4c);
+}
+body section #ex5 {
+  background: radial-gradient(#ef476f, #ffd166, #06d6a0, #118ab2, #073b4c, #118ab2, #06d6a0, #ffd166, #ef476f);
+}
+body section #ex6 {
+  background: linear-gradient(to left bottom, #073b4c, #118ab2, #06d6a0, #ffd166, #ef476f);
+}
+
+/*# sourceMappingURL=style.css.map */
